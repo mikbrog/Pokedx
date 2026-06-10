@@ -44,7 +44,7 @@ function createCard(item) {
     </div>
   `;}
   else{
-    return `<a href="vaporeon.html">
+    return `<a href="https://www.reddit.com/r/copypasta/comments/eidplc/vaporeon_copypasta/?tl=it">
     <div class="col-md-4">
       <article class="card h-100 shadow-sm">
         ${image}
