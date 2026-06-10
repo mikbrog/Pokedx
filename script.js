@@ -44,18 +44,17 @@ function createCard(item) {
     </div>
   `;}
   else{
-    return `<a href="https://www.reddit.com/r/copypasta/comments/eidplc/vaporeon_copypasta/?tl=it">
+    return `
     <div class="col-md-4">
       <article class="card h-100 shadow-sm">
         ${image}
         <div class="card-body" id ="Pokeapi-card">
-          <h3 class="card-title h5">${escapeHtml(item.title)}</h3>
+          <a href="https://www.reddit.com/r/copypasta/comments/eidplc/vaporeon_copypasta/?tl=it" class="stretched-link"><h3 class="card-title h5">${escapeHtml(item.title)}</h3></a>
           <p class="card-text">${escapeHtml(item.body)}</p>
           ${meta}
         </div>
       </article>
     </div>
-    </a>
   `;
   }
 }
