@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabella dei Tipi - Pokedx</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger custom-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="docs/assets/immagini/logo.png" width="100" height="60" class="d-inline-block align-top me-2" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pokemon.html">Pokèmon</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="tipi.html">Tabella dei tipi e debolezze</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-5 mb-5">
+        <h1 class="mb-2 text-dark fw-bold">Tabella Tipi e Debolezze</h1>
+        <p class="text-muted mb-4">Cheatsheet per quando giochi a Pokémon showdown e non sai i typings</p>
+
+        <div class="table-responsive table-wrapper">
+            <table class="table align-middle mb-0 custom-table">
+                <thead>
+                    <tr>
+                        <th scope="col" style="width: 15%;">Tipo</th>
+                        <th scope="col">Efficace contro (x2)</th>
+                        <th scope="col">Debole contro (x0.5)</th>
+                        <th scope="col">Immune a (x0)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="type-badge type-normale">Normale</span></td>
+                        <td class="text-muted">-</td>
+                        <td>Roccia, Acciaio</td>
+                        <td>Spettro</td>
+                    </tr>
+                    <tr>
+                        <td><span class="type-badge type-fuoco">Fuoco</span></td>
+                        <td>Erba, Ghiaccio, Coleottero, Acciaio</td>
+                        <td>Fuoco, Acqua, Roccia, Drago</td>
+                        <td class="text-muted">-</td>
+                    </tr>
+                    <tr>
+                        <td><span class="type-badge type-acqua">Acqua</span></td>
+                        <td>Fuoco, Terra, Roccia</td>
+                        <td>Acqua, Erba, Drago</td>
+                        <td class="text-muted">-</td>
+                    </tr>
+                    <tr>
+                        <td><span class="type-badge type-elettro">Elettro</span></td>
+                        <td>Acqua, Volante</td>
+                        <td>Elettro, Erba, Drago</td>
+                        <td>Terra</td>
+                    </tr>
+                    <tr>
+                        <td><span class="type-badge type-erba">Erba</span></td>
+                        <td>Acqua, Terra, Roccia</td>
+                        <td>Fuoco, Erba, Veleno, Volante, Coleottero, Drago, Acciaio</td>
+                        <td class="text-muted">-</td>
+                    </tr>
+                    <tr>
+                        <td><span class="type-badge type-ghiaccio">Ghiaccio</span></td>
+                        <td>Erba, Terra, Volante, Drago</td>
+                        <td>Fuoco, Acqua, Ghiaccio, Acciaio</td>
+                        <td class="text-muted">-</td>
+                    </tr>
+                    <tr>
+                        <td><span class="type-badge type-lotta">Lotta</span></td>
+                        <td>Normale, Ghiaccio, Roccia, Buio, Acciaio</td>
+                        <td>Veleno, Volante, Psico, Coleottero, Folletto</td>
+                        <td>Spettro</td>
+                    </tr>
+                    <tr>
+                        <td><span class="type-badge type-veleno">Veleno</span></td>
+                        <td>Erba, Folletto</td>
+                        <td>Veleno, Terra, Roccia, Spettro</td>
+                        <td>Acciaio</td>
+                    </tr>
+                    <tr>
+                        <td><span class="type-badge type-terra">Terra</span></td>
+                        <td>Fuoco, Elettro, Veleno, Roccia, Acciaio</td>
+                        <td>Erba, Coleottero</td>
+                        <td>Volante</td>
+                    </tr>
+                    <tr>
+                        <td><span class="type-badge type-volante">Volante</span></td>
+                        <td>Erba, Lotta, Coleottero</td>
+                        <td>Elettro, Roccia, Acciaio</td>
+                        <td class="text-muted">-</td>
+                    </tr>
+                    <tr>
+                        <td><span class="type-badge type-psico">Psico</span></td>
+                        <td>Lotta, Veleno</td>
+                        <td>Psico, Acciaio</td>
+                        <td>Buio</td>
+                    </tr>
+                    <tr>
+                        <td><span class="type-badge type-coleottero">Coleottero</span></td>
+                        <td>Erba, Psico, Buio</td>
+                        <td>Fuoco, Lotta, Veleno, Volante, Spettro, Acciaio, Folletto</td>
+                        <td class="text-muted">-</td>
+                    </tr>
+                    <tr>
+                        <td><span class="type-badge type-roccia">Roccia</span></td>
+                        <td>Fuoco, Ghiaccio, Volante, Coleottero</td>
+                        <td>Lotta, Terra, Acciaio</td>
+                        <td class="text-muted">-</td>
+                    </tr>
+                    <tr>
+                        <td><span class="type-badge type-spettro">Spettro</span></td>
+                        <td>Psico, Spettro</td>
+                        <td>Buio</td>
+                        <td>Normale</td>
+                    </tr>
+                    <tr>
+                        <td><span class="type-badge type-drago">Drago</span></td>
+                        <td>Drago</td>
+                        <td>Acciaio</td>
+                        <td>Folletto</td>
+                    </tr>
+                    <tr>
+                        <td><span class="type-badge type-buio">Buio</span></td>
+                        <td>Psico, Spettro</td>
+                        <td>Lotta, Buio, Folletto</td>
+                        <td class="text-muted">-</td>
+                    </tr>
+                    <tr>
+                        <td><span class="type-badge type-acciaio">Acciaio</span></td>
+                        <td>Ghiaccio, Roccia, Folletto</td>
+                        <td>Fuoco, Acqua, Elettro, Acciaio</td>
+                        <td class="text-muted">-</td>
+                    </tr>
+                    <tr>
+                        <td><span class="type-badge type-folletto">Folletto</span></td>
+                        <td>Lotta, Drago, Buio</td>
+                        <td>Fuoco, Veleno, Acciaio</td>
+                        <td class="text-muted">-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer class="custom-footer text-center">
+        <div class="container">
+            <span class="text-muted">© 2026 Pokedx - Creato dalla prossima imperatrice di Ramas.</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

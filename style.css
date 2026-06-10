@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    background-color: #f4f6f9;
+    font-family: 'Poppins', sans-serif;
+    color: #495057;
+}
+
+.custom-navbar {
+    box-shadow: 0 4px 12px rgba(29, 29, 29, 0.08);
+}
+
+.hero-section {
+    padding: 80px 0;
+    margin-bottom: 48px;
+    box-shadow: 0 8px 24px rgba(29, 29, 29, 0.15);
+}
+
+.hero-banner {
+    background-image: url('docs/assets/immagini/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(34, 34, 34, 0.55);
+    z-index: 0;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+.btn-modern {
+    border-radius: 50px !important;
+    padding: 10px 28px !important;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-modern:hover {
+    box-shadow: 0 6px 20px rgba(220, 53, 69, 0.25);
+    transform: translateY(-2px);
+}
+
+.btn-outline-light:hover {
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.15) !important;
+}
+
+.design-card {
+    border: none !important;
+    border-radius: 20px !important;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.design-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 38px rgba(220, 53, 69, 0.1);
+}
+
+.card-img-wrapper {
+    background-color: #f8f9fa;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.table-wrapper {
+    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.04);
+    border-radius: 18px;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.custom-table thead {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+.custom-table th {
+    padding: 16px 20px !important;
+    font-weight: 600;
+    border-bottom: none;
+}
+
+.custom-table td {
+    padding: 16px 20px !important;
+    border-bottom: 1px solid #efefef;
+    color: #495057;
+    font-weight: 500;
+}
+
+.custom-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.custom-table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.custom-footer {
+    background-color: #ffffff;
+    padding: 24px 0;
+    border-top: 1px solid #efefef;
+    margin-top: 80px;
+}
+
+.type-badge {
+    color: white;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    padding: 6px 12px;
+    border-radius: 8px;
+    display: inline-block;
+    width: 110px;
+    text-align: center;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+.type-normale { background-color: #A8A77A; }
+.type-fuoco { background-color: #EE8130; }
+.type-acqua { background-color: #6390F0; }
+.type-elettro { background-color: #F7D02C; color: #000; text-shadow: none; }
+.type-erba { background-color: #7AC74C; }
+.type-ghiaccio { background-color: #96D9D6; color: #000; text-shadow: none; }
+.type-lotta { background-color: #C22E28; }
+.type-veleno { background-color: #A33EA1; }
+.type-terra { background-color: #E2BF65; }
+.type-volante { background-color: #A98FF3; }
+.type-psico { background-color: #F95587; }
+.type-coleottero { background-color: #A6B91A; }
+.type-roccia { background-color: #B6A136; }
+.type-spettro { background-color: #735797; }
+.type-drago { background-color: #6F35FC; }
+.type-buio { background-color: #705746; }
+.type-acciaio { background-color: #B7B7CE; }
+.type-folletto { background-color: #D685AD; }
+
+.card-title {
+    text-transform: capitalize;
+}
+
+#Pokeapi-card {
+    background-color: #818991;
+}

@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "title": "caterpie",
+      "body": "Altezza: 3 · Peso: 29 · Tipi: bug",
+      "meta": "#10",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
+    },
+    {
+      "title": "metapod",
+      "body": "Altezza: 7 · Peso: 99 · Tipi: bug",
+      "meta": "#11",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
+    },
+    {
+      "title": "butterfree",
+      "body": "Altezza: 11 · Peso: 320 · Tipi: bug, flying",
+      "meta": "#12",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+    },
+    {
+      "title": "weedle",
+      "body": "Altezza: 3 · Peso: 32 · Tipi: bug, poison",
+      "meta": "#13",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
+    },
+    {
+      "title": "kakuna",
+      "body": "Altezza: 6 · Peso: 100 · Tipi: bug, poison",
+      "meta": "#14",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
+    },
+    {
+      "title": "beedrill",
+      "body": "Altezza: 10 · Peso: 295 · Tipi: bug, poison",
+      "meta": "#15",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
+    },
+    {
+      "title": "paras",
+      "body": "Altezza: 3 · Peso: 54 · Tipi: bug, grass",
+      "meta": "#46",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png"
+    },
+    {
+      "title": "parasect",
+      "body": "Altezza: 10 · Peso: 295 · Tipi: bug, grass",
+      "meta": "#47",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png"
+    },
+    {
+      "title": "venonat",
+      "body": "Altezza: 10 · Peso: 300 · Tipi: bug, poison",
+      "meta": "#48",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png"
+    },
+    {
+      "title": "venomoth",
+      "body": "Altezza: 15 · Peso: 125 · Tipi: bug, poison",
+      "meta": "#49",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png"
+    },
+    {
+      "title": "scyther",
+      "body": "Altezza: 15 · Peso: 560 · Tipi: bug, flying",
+      "meta": "#123",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png"
+    },
+    {
+      "title": "pinsir",
+      "body": "Altezza: 15 · Peso: 550 · Tipi: bug",
+      "meta": "#127",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png"
+    }
+  ]
+}
