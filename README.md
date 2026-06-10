@@ -22,6 +22,7 @@ Per eseguire il progetto è necessario:
 
 ## INSTALLAZIONE
 
+La guida di installazione è sono presente nel file [INSTALLAZIONE](docs/installazione.md).
 
 ## FUNZIONALITÀ
 
